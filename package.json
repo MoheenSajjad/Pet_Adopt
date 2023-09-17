@@ -2,10 +2,10 @@
   "name": "adopt_me",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts  build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
@@ -34,6 +34,7 @@
     "material-icons": "^1.13.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.1"
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1"
   }
 }
